@@ -1,0 +1,2153 @@
+{
+	"managementCompanies": [
+		{
+			"_id": "777",
+			"managementCompanyType": "MANAGEMENTCOMPANY",
+			"uniqueManagementCompanyName": "taj hotels",
+			"managementCompanyName": "Taj Hotels",
+			"licenceContactInitial": "mr",
+			"licenceContactFirstName": "Jamsetji",
+			"licenceContactLastName": "Tata",
+			"addressLine1": "Express Towers",
+			"country": "India",
+			"diallingPrefix": "+91",
+			"city": "Mumbai",
+			"postalCode": "99999",
+			"areaCode": "999",
+			"phoneNumber": "9999",
+			"activationDate": "2020-02-17",
+			"chimpsId": "1",
+			"uniqueClientCode": "taj",
+			"clientCode": "TAJ",
+			"contactTitle": "Director",
+			"contactEmail": "taj@dummy.com",
+			"addressLine2": "Nariman Point",
+			"state": "Maharashtra",
+			"mobileNumber": "99999",
+			"admins": [
+				"taj@dummy.com"
+			]
+		}
+	],
+
+	"managementCompanyGeoSetupHeaders": [
+		{
+			"_id": "155",
+			"managementCompanyId": "777",
+			"name": "Tier1"
+		},
+		{
+			"_id": "156",
+			"managementCompanyId": "777",
+			"name": "Tier2"
+		},
+		{
+			"_id": "157",
+			"managementCompanyId": "777",
+			"name": "Tier3"
+		}
+	],
+
+	"managementCompanyGeoSetups": [
+		{
+			"_id" : "158",
+			"managementCompanyId" : "777",
+			"name" : "DUMMY",
+			"path" : "0",
+			"sequenceNo" : "0"
+		},
+		{
+			"_id" : "159",
+			"managementCompanyId" : "777",
+			"name" : "Americas",
+			"path" : "0/158",
+			"sequenceNo" : "0"
+		},
+		{
+			"_id" : "160",
+			"managementCompanyId" : "777",
+			"name" : "Canada",
+			"path" : "0/158/159",
+			"sequenceNo" : "1"
+		},
+		{
+			"_id" : "161",
+			"managementCompanyId" : "777",
+			"name" : "Toronto",
+			"path" : "0/158/159/160",
+			"sequenceNo" : "1"
+		},
+		{
+			"_id" : "162",
+			"managementCompanyId" : "777",
+			"name" : "USA",
+			"path" : "0/158/159",
+			"sequenceNo" : "2"
+		},
+		{
+			"_id" : "163",
+			"managementCompanyId" : "777",
+			"name" : "Boston",
+			"path" : "0/158/159/162",
+			"sequenceNo" : "1"
+		},
+		{
+			"_id" : "164",
+			"managementCompanyId" : "777",
+			"name" : "NYC",
+			"path" : "0/158/159/162",
+			"sequenceNo" : "2"
+		},
+		{
+			"_id" : "165",
+			"managementCompanyId" : "777",
+			"name" : "Europe",
+			"path" : "0/158",
+			"sequenceNo" : "1"
+		},
+		{
+			"_id" : "166",
+			"managementCompanyId" : "777",
+			"name" : "France",
+			"path" : "0/158/165",
+			"sequenceNo" : "1"
+		},
+		{
+			"_id" : "167",
+			"managementCompanyId" : "777",
+			"name" : "Paris",
+			"path" : "0/158/165/166",
+			"sequenceNo" : "1"
+		},
+		{
+			"_id" : "168",
+			"managementCompanyId" : "777",
+			"name" : "UK",
+			"path" : "0/158/165",
+			"sequenceNo" : "2"
+		},
+		{
+			"_id" : "169",
+			"managementCompanyId" : "777",
+			"name" : "Asia",
+			"path" : "0/158",
+			"sequenceNo" : "2"
+		},
+		{
+			"_id" : "170",
+			"managementCompanyId" : "777",
+			"name" : "INDIA",
+			"path" : "0/158/169",
+			"sequenceNo" : "1"
+		},
+		{
+			"_id" : "171",
+			"managementCompanyId" : "777",
+			"name" : "Chennai",
+			"path" : "0/158/169/170",
+			"sequenceNo" : "1"
+		}
+
+
+	],
+
+	"operationalSetups": [
+		{
+			"_id" : "5eefaa2b1f61bd1124f4f3df",
+			"managementCompanyId" : "777",
+			"operationTierName" : "Star",
+			"isPropertyDisplay" : true,
+			"detailList" : [
+				{
+					"optionId" : "96",
+					"optionName" : "5 Star",
+					"optionOrder" : "0"
+				},
+				{
+					"optionId" : "97",
+					"optionName" : "4 Star",
+					"optionOrder" : "1"
+				},
+				{
+					"optionId" : "98",
+					"optionName" : "3 Star",
+					"optionOrder" : "2"
+				}
+			]
+		},
+		{
+			"_id" : "5eefaa2b1f61bd1124f4f3e0",
+			"managementCompanyId" : "777",
+			"operationTierName" : "Size",
+			"isPropertyDisplay" : false,
+			"detailList" : [
+				{
+					"optionId" : "99",
+					"optionName" : "500+",
+					"optionOrder" : "0"
+				},
+				{
+					"optionId" : "100",
+					"optionName" : "300-500",
+					"optionOrder" : "1"
+				}
+			]
+		}
+
+	], "impactTypes":[
+	{
+		"_id" : "5bd580b16348e024a8ef6164",
+		"name" : "Sports",
+		"isUserDefined" : true,
+		"rank" : "1",
+		"managementCompanyId" :  "777"
+	},
+	{
+		"_id" :"5bd580b16348e024a8ef6161",
+		"name" : "City-wide",
+		"isUserDefined" : true,
+		"rank" : "2",
+		"managementCompanyId" :  "777"
+	},
+	{
+		"_id" : "5bd580b16348e024a8ef6162",
+		"name" : "Festival",
+		"isUserDefined" : true,
+		"rank" : "3",
+		"managementCompanyId" :  "777"
+	},
+	{
+		"_id" : "5bd580b16348e024a8ef6163",
+		"name" : "Holiday",
+		"isUserDefined" : true,
+		"rank" : "4",
+		"managementCompanyId" :  "777"
+	},
+	{
+		"_id" : "5bd580b16348e024a8ef6165",
+		"name" : "Weather",
+		"isUserDefined" : true,
+		"rank" : "5",
+		"managementCompanyId" :  "777"
+	},
+	{
+		"_id" : "5f1e7ec41f61bd047c27c6d3",
+		"name" : "Other",
+		"isUserDefined" : true,
+		"rank" : "6",
+		"managementCompanyId" : "777"
+	}
+
+], "impactEvents": [
+	{
+		"_id" : "5f298e0e1f61bd1658a7c366",
+		"name" : "Chistmas",
+		"revImpact" : "Rooms Only",
+		"type" : "Sports",
+		"frequency" : "REPEATING",
+		"interval" : "Custom",
+		"duration" : 7,
+		"managementCompanyId" : 777,
+		"eventInstances" : [
+			{
+				"startDate" : "2020-12-25T00:00:00.000+0000",
+				"endDate" : "2020-12-31T00:00:00.000+0000"
+			}
+		],
+		"isMappedWithManagementCompany" : true
+	}
+],
+	"fnbManagementCompanyConfig": [
+		{
+			"_id" : "5f296f111f61bd1658a7c2da",
+			"managementCompanyId" : 777,
+			"category" : "Category",
+			"viewOrder" : 0,
+			"subcategories" : [
+				{
+					"name" : "Sub Category",
+					"viewOrder" : 0,
+					"departments" : [
+					], "impactEvents": [
+					{
+						"_id" : "5f298e0e1f61bd1658a7c366",
+						"name" : "Chistmas",
+						"revImpact" : "Rooms Only",
+						"type" : "Sports",
+						"frequency" : "REPEATING",
+						"interval" : "Custom",
+						"duration" : 7,
+						"managementCompanyId" : 777,
+						"eventInstances" : [
+							{
+								"startDate" : "2020-12-25T00:00:00.000+0000",
+								"endDate" : "2020-12-31T00:00:00.000+0000"
+							}
+						],
+						"isMappedWithManagementCompany" : true
+					}
+				],
+					"fnBManagementCompanyConfigs": [
+						{
+							"_id" : "5f2afe7b1f61bd0f10912b37",
+							"managementCompanyId" : 777,
+							"category" : "Test",
+							"viewOrder" : 0,
+							"subcategories" : [
+								{
+									"name" : "Test Sub Cat",
+									"viewOrder" : 0,
+									"departments" : [
+
+									]
+								}
+							]
+						}
+					],
+					"otherIncomes": [
+						{
+							"_id" : "5f29a8481f61bd1658a7c3a4",
+							"managementCompanyId" : 777,
+							"category" : "Test",
+							"categoryId" : "2a2852b6-9ab9-4129-9d81-b6cfac08aec7",
+							"categoryViewOrder" : 0,
+							"subCategoryId" : "64ec29e5-78e3-4015-b2b8-866caddf8bc6",
+							"subCategoryViewOrder" : 0,
+							"createDate" : "2020-08-04T18:26:16.745+0000",
+							"lastModifiedDate" : "2020-08-04T18:26:16.745+0000"
+						}
+					],
+					"weekConfigs": [
+						{
+							"weekConfigurationId" : "5bd888316348e024a8ef6dd5",
+							"propertyId" : 592,
+							"managementCompanyId" : 777,
+							"weekDays" : [
+								0,
+								1,
+								2,
+								3,
+								4
+							],
+							"weekEnds" : [
+								5,
+								6
+							]
+						}
+					]
+				}
+			]
+		}
+	],
+	"otherIncomes": [
+		{
+			"_id" : "5f29a8481f61bd1658a7c3a4",
+			"managementCompanyId" : 777,
+			"category" : "Test",
+			"categoryId" : "2a2852b6-9ab9-4129-9d81-b6cfac08aec7",
+			"categoryViewOrder" : 0,
+			"subCategoryId" : "64ec29e5-78e3-4015-b2b8-866caddf8bc6",
+			"subCategoryViewOrder" : 0,
+			"createDate" : "2020-08-04T18:26:16.745+0000",
+			"lastModifiedDate" : "2020-08-04T18:26:16.745+0000"
+		}
+	],
+	"weekConfigs": [
+		{
+			"weekConfigurationId" : "5bd888316348e024a8ef6dd5",
+			"propertyId" : 191,
+			"managementCompanyId" : 777,
+			"weekDays" : [
+				0,
+				1,
+				2,
+				3,
+				4
+			],
+			"weekEnds" : [
+				5,
+				6
+			]
+		}
+
+	],
+	"marketSegments": [
+		{
+			"_id" : "5ef084c11f61bd1124f592f1",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "TYPE"
+		},
+		{
+			"_id" : "5ef085271f61bd1124f592f3",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "SUBCATEGORY",
+			"categoryName" : "TRANSIENT",
+			"categoryRank" : "1",
+			"subCategoryName" : "Retail",
+			"subcategoryRank" : "1"
+		},
+		{
+			"_id" : "5ef085271f61bd1124f592f4",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "SUBCATEGORY",
+			"categoryName" : "TRANSIENT",
+			"categoryRank" : "1",
+			"subCategoryName" : "Discount",
+			"subcategoryRank" : "2"
+		},
+		{
+			"_id" : "5ef085271f61bd1124f592f5",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "SUBCATEGORY",
+			"categoryName" : "TRANSIENT",
+			"categoryRank" : "1",
+			"subCategoryName" : "Qualified",
+			"subcategoryRank" : "3"
+		},
+		{
+			"_id" : "5ef085271f61bd1124f592f6",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "CATEGORY",
+			"categoryName" : "TRANSIENT",
+			"categoryRank" : "1"
+		},
+		{
+			"_id" : "5ef085271f61bd1124f592f7",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "CATEGORY",
+			"categoryName" : "GROUP",
+			"categoryRank" : "2"
+		},
+		{
+			"_id" : "5ef085271f61bd1124f592f8",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "SUBCATEGORY",
+			"categoryName" : "OTHER",
+			"categoryRank" : "3",
+			"subCategoryName" : "Other Revenue",
+			"subcategoryRank" : "1"
+		},
+		{
+			"_id" : "5ef085271f61bd1124f592f9",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "SUBCATEGORY",
+			"categoryName" : "OTHER",
+			"categoryRank" : "3",
+			"subCategoryName" : "COMP/HOUSE USE",
+			"subcategoryRank" : "2"
+		},
+		{
+			"_id" : "5ef085271f61bd1124f592fa",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "CATEGORY",
+			"categoryName" : "OTHER",
+			"categoryRank" : "3"
+		},
+		{
+			"_id" : "5ef086721f61bd1124f59304",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "TRANSIENT",
+			"categoryRank" : "1",
+			"subCategoryName" : "Retail",
+			"subcategoryRank" : "1",
+			"companySegmentCode" : "LB",
+			"segmentDescription" : "LOEWS BEST RATE",
+			"erpCodeUnit" : [
+				""
+			],
+			"erpCodeRev" : [
+				""
+			],
+			"forecastMethod" : "SEGMENT_WEIGHTING",
+			"showCheck" : true,
+			"segmentRank" : "1"
+		},
+		{
+			"_id" : "5ef086721f61bd1124f59305",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "TRANSIENT",
+			"categoryRank" : "1",
+			"subCategoryName" : "Retail",
+			"subcategoryRank" : "1",
+			"companySegmentCode" : "OC",
+			"segmentDescription" : "OTA - RETAIL COMMISSION",
+			"erpCodeUnit" : [
+				""
+			],
+			"erpCodeRev" : [
+				""
+			],
+			"forecastMethod" : "SEGMENT_PICKUP",
+			"showCheck" : true,
+			"segmentRank" : "2"
+		},
+		{
+			"_id" : "5ef086721f61bd1124f59306",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "TRANSIENT",
+			"categoryRank" : "1",
+			"subCategoryName" : "Retail",
+			"subcategoryRank" : "1",
+			"companySegmentCode" : "OM",
+			"segmentDescription" : "OTA - RETAIL MERCHANT",
+			"erpCodeUnit" : [
+				""
+			],
+			"erpCodeRev" : [
+				""
+			],
+			"forecastMethod" : "SEGMENT_PICKUP",
+			"showCheck" : false,
+			"combineInto" : "5ef086721f61bd1124f59305",
+			"segmentRank" : "3"
+		},
+		{
+			"_id" : "5ef086721f61bd1124f59307",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "TRANSIENT",
+			"categoryRank" : "1",
+			"subCategoryName" : "Discount",
+			"subcategoryRank" : "2",
+			"companySegmentCode" : "PD",
+			"segmentDescription" : "PROPERTY DISCOUNT",
+			"erpCodeUnit" : [
+				""
+			],
+			"erpCodeRev" : [
+				""
+			],
+			"forecastMethod" : "TIME_SERIES",
+			"showCheck" : true,
+			"segmentRank" : "4"
+		},
+		{
+			"_id" : "5ef086721f61bd1124f59308",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "TRANSIENT",
+			"categoryRank" : "1",
+			"subCategoryName" : "Discount",
+			"subcategoryRank" : "2",
+			"companySegmentCode" : "TA",
+			"segmentDescription" : "TRAVEL AGENT DISCOUNT",
+			"erpCodeUnit" : [
+				""
+			],
+			"erpCodeRev" : [
+				""
+			],
+			"forecastMethod" : "SEGMENT_WEIGHTING",
+			"showCheck" : true,
+			"segmentRank" : "5"
+		},
+		{
+			"_id" : "5ef086721f61bd1124f59309",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "TRANSIENT",
+			"categoryRank" : "1",
+			"subCategoryName" : "Qualified",
+			"subcategoryRank" : "3",
+			"companySegmentCode" : "MG",
+			"segmentDescription" : "MANAGEMENT APPROVED",
+			"erpCodeUnit" : [
+				""
+			],
+			"erpCodeRev" : [
+				""
+			],
+			"forecastMethod" : "SEGMENT_WEIGHTING",
+			"showCheck" : true,
+			"segmentRank" : "6"
+		},
+		{
+			"_id" : "5ef086721f61bd1124f5930a",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "GROUP",
+			"categoryRank" : "2",
+			"companySegmentCode" : "GC",
+			"segmentDescription" : "GROUP CORPORATE",
+			"erpCodeUnit" : [
+				""
+			],
+			"erpCodeRev" : [
+				""
+			],
+			"forecastMethod" : "MATERIALIZATION",
+			"showCheck" : true,
+			"segmentRank" : "7"
+		},
+		{
+			"_id" : "5ef086721f61bd1124f5930b",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "GROUP",
+			"categoryRank" : "2",
+			"companySegmentCode" : "GG",
+			"segmentDescription" : "GROUP GOVERNMENT",
+			"erpCodeUnit" : [
+				""
+			],
+			"erpCodeRev" : [
+				""
+			],
+			"forecastMethod" : "MATERIALIZATION",
+			"showCheck" : true,
+			"segmentRank" : "8"
+		},
+		{
+			"_id" : "5ef086721f61bd1124f5930c",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "GROUP",
+			"categoryRank" : "2",
+			"companySegmentCode" : "GA",
+			"segmentDescription" : "GROUP ASSOCIATION",
+			"erpCodeUnit" : [
+				""
+			],
+			"erpCodeRev" : [
+				""
+			],
+			"forecastMethod" : "MATERIALIZATION",
+			"showCheck" : false,
+			"combineInto" : "5ef086721f61bd1124f5930a",
+			"segmentRank" : "9"
+		},
+		{
+			"_id" : "5ef086721f61bd1124f5930d",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "OTHER",
+			"categoryRank" : "3",
+			"subCategoryName" : "Other Revenue",
+			"subcategoryRank" : "1",
+			"companySegmentCode" : "ORR",
+			"segmentDescription" : "OTHER ROOMS REVENUE",
+			"erpCodeUnit" : [
+				""
+			],
+			"erpCodeRev" : [
+				""
+			],
+			"forecastMethod" : "REVENUE_ONLY",
+			"showCheck" : true,
+			"segmentRank" : "10"
+		},
+		{
+			"_id" : "5ef086721f61bd1124f5930e",
+			"managementCompanyId" : "777",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "OTHER",
+			"categoryRank" : "3",
+			"subCategoryName" : "COMP/HOUSE USE",
+			"subcategoryRank" : "2",
+			"companySegmentCode" : "HU",
+			"segmentDescription" : "HOUSE USE",
+			"erpCodeUnit" : [
+				""
+			],
+			"erpCodeRev" : [
+				""
+			],
+			"forecastMethod" : "ROOMS_ONLY",
+			"showCheck" : true,
+			"segmentRank" : "11"
+		},
+		{
+			"_id" : "5ef08fd81f61bd1124f59320",
+			"managementCompanyId" : "777",
+			"propertyId" : "591",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "TRANSIENT",
+			"categoryRank" : "1",
+			"subCategoryName" : "Retail",
+			"subcategoryRank" : "1",
+			"companySegmentCode" : "LB",
+			"propertySegmentCode" : "LBR",
+			"segmentDescription" : "LOEWS BEST RATE",
+			"erpCodeUnit" : [				],
+			"erpCodeRev" : [				],
+			"forecastMethod" : "SEGMENT_WEIGHTING",
+			"showCheck" : true,
+			"segmentRank" : "1",
+			"propertySegmentRank" : "1"
+		},
+		{
+			"_id" : "5ef08fd81f61bd1124f59321",
+			"managementCompanyId" : "777",
+			"propertyId" : "591",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "TRANSIENT",
+			"categoryRank" : "1",
+			"subCategoryName" : "Retail",
+			"subcategoryRank" : "1",
+			"companySegmentCode" : "OC",
+			"propertySegmentCode" : "OC",
+			"segmentDescription" : "OTA - RETAIL COMMISSION",
+			"erpCodeUnit" : [				],
+			"erpCodeRev" : [				],
+			"forecastMethod" : "SEGMENT_PICKUP",
+			"showCheck" : true,
+			"segmentRank" : "2",
+			"propertySegmentRank" : "2"
+		},
+		{
+			"_id" : "5ef08fd81f61bd1124f59322",
+			"managementCompanyId" : "777",
+			"propertyId" : "591",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "TRANSIENT",
+			"categoryRank" : "1",
+			"subCategoryName" : "Retail",
+			"subcategoryRank" : "1",
+			"companySegmentCode" : "OM",
+			"propertySegmentCode" : "OM",
+			"segmentDescription" : "OTA - RETAIL MERCHANT",
+			"erpCodeUnit" : [				],
+			"erpCodeRev" : [				],
+			"forecastMethod" : "SEGMENT_PICKUP",
+			"showCheck" : false,
+			"combineInto" : "5ef08fd81f61bd1124f59321",
+			"segmentRank" : "3",
+			"propertySegmentRank" : "3"
+		},
+		{
+			"_id" : "5ef08fd81f61bd1124f59323",
+			"managementCompanyId" : "777",
+			"propertyId" : "591",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "TRANSIENT",
+			"categoryRank" : "1",
+			"subCategoryName" : "Discount",
+			"subcategoryRank" : "2",
+			"companySegmentCode" : "PD",
+			"propertySegmentCode" : "PD",
+			"segmentDescription" : "PROPERTY DISCOUNT",
+			"erpCodeUnit" : [				],
+			"erpCodeRev" : [				],
+			"forecastMethod" : "TIME_SERIES",
+			"showCheck" : true,
+			"segmentRank" : "4",
+			"propertySegmentRank" : "4"
+		},
+		{
+			"_id" : "5ef08fd81f61bd1124f59324",
+			"managementCompanyId" : "777",
+			"propertyId" : "591",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "TRANSIENT",
+			"categoryRank" : "1",
+			"subCategoryName" : "Discount",
+			"subcategoryRank" : "2",
+			"companySegmentCode" : "TA",
+			"propertySegmentCode" : "TA",
+			"segmentDescription" : "TRAVEL AGENT DISCOUNT",
+			"erpCodeUnit" : [				],
+			"erpCodeRev" : [				],
+			"forecastMethod" : "SEGMENT_WEIGHTING",
+			"showCheck" : true,
+			"segmentRank" : "5",
+			"propertySegmentRank" : "5"
+		},
+		{
+			"_id" : "5ef08fd81f61bd1124f59325",
+			"managementCompanyId" : "777",
+			"propertyId" : "591",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "TRANSIENT",
+			"categoryRank" : "1",
+			"subCategoryName" : "Qualified",
+			"subcategoryRank" : "3",
+			"companySegmentCode" : "MG",
+			"propertySegmentCode" : "MG",
+			"segmentDescription" : "MANAGEMENT APPROVED",
+			"erpCodeUnit" : [				],
+			"erpCodeRev" : [				],
+			"forecastMethod" : "SEGMENT_WEIGHTING",
+			"showCheck" : true,
+			"segmentRank" : "6",
+			"propertySegmentRank" : "6"
+		},
+		{
+			"_id" : "5ef08fd81f61bd1124f59326",
+			"managementCompanyId" : "777",
+			"propertyId" : "591",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "GROUP",
+			"categoryRank" : "2",
+			"companySegmentCode" : "GC",
+			"propertySegmentCode" : "GC",
+			"segmentDescription" : "GROUP CORPORATE",
+			"erpCodeUnit" : [				],
+			"erpCodeRev" : [				],
+			"forecastMethod" : "MATERIALIZATION",
+			"showCheck" : true,
+			"segmentRank" : "7",
+			"propertySegmentRank" : "7"
+		},
+		{
+			"_id" : "5ef08fd81f61bd1124f59327",
+			"managementCompanyId" : "777",
+			"propertyId" : "591",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "GROUP",
+			"categoryRank" : "2",
+			"companySegmentCode" : "GG",
+			"propertySegmentCode" : "GG",
+			"segmentDescription" : "GROUP GOVERNMENT",
+			"erpCodeUnit" : [				],
+			"erpCodeRev" : [				],
+			"forecastMethod" : "MATERIALIZATION",
+			"showCheck" : true,
+			"segmentRank" : "8",
+			"propertySegmentRank" : "8"
+		},
+		{
+			"_id" : "5ef08fd81f61bd1124f59328",
+			"managementCompanyId" : "777",
+			"propertyId" : "591",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "GROUP",
+			"categoryRank" : "2",
+			"companySegmentCode" : "GA",
+			"propertySegmentCode" : "GA",
+			"segmentDescription" : "GROUP ASSOCIATION",
+			"erpCodeUnit" : [
+
+			],
+			"erpCodeRev" : [
+
+			],
+			"forecastMethod" : "MATERIALIZATION",
+			"showCheck" : false,
+			"combineInto" : "5ef08fd81f61bd1124f59326",
+			"segmentRank" : "9",
+			"propertySegmentRank" : "9"
+		},
+		{
+			"_id" : "5ef08fd81f61bd1124f59329",
+			"managementCompanyId" : "777",
+			"propertyId" : "591",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "OTHER",
+			"categoryRank" : "3",
+			"subCategoryName" : "Other Revenue",
+			"subcategoryRank" : "1",
+			"companySegmentCode" : "ORR",
+			"propertySegmentCode" : "ORR",
+			"segmentDescription" : "OTHER ROOMS REVENUE",
+			"erpCodeUnit" : [				],
+			"erpCodeRev" : [				],
+			"forecastMethod" : "REVENUE_ONLY",
+			"showCheck" : true,
+			"segmentRank" : "10",
+			"propertySegmentRank" : "10"
+		},
+		{
+			"_id" : "5ef08fd81f61bd1124f5932a",
+			"managementCompanyId" : "777",
+			"propertyId" : "591",
+			"typeId" : "1",
+			"typeName" : "Hotel",
+			"virtualType" : "1",
+			"virtualTypeName" : "Hotel",
+			"nameSpace" : "MARKETSEGMENT",
+			"categoryName" : "OTHER",
+			"categoryRank" : "3",
+			"subCategoryName" : "COMP/HOUSE USE",
+			"subcategoryRank" : "2",
+			"companySegmentCode" : "HU",
+			"propertySegmentCode" : "HU",
+			"segmentDescription" : "HOUSE USE",
+			"erpCodeUnit" : [				],
+			"erpCodeRev" : [				],
+			"forecastMethod" : "ROOMS_ONLY",
+			"showCheck" : true,
+			"segmentRank" : "11",
+			"propertySegmentRank" : "11"
+		}
+	],
+
+	"properties": [
+		{
+			"_id" : "591",
+			"managementCompanyId" : "777",
+			"uniquePropertyName" : "taj coromandel",
+			"propertyName" : "Taj Coromandel",
+			"licenceContactInitial" : "mr",
+			"licenceContactFirstName" : "Venkat",
+			"licenceContactLastName" : "Raj",
+			"addressLine1" : "Nungambakkam High Road,",
+			"country" : "India",
+			"diallingPrefix" : "+91",
+			"city" : "Chennai",
+			"postalCode" : "600 034",
+			"areaCode" : "9999",
+			"phoneNumber" : "9999",
+			"chimpsId" : "1",
+			"contactTitle" : "Director",
+			"contactEmail" : "venkat@dummy.com",
+			"addressLine2" : "Nungambakkam",
+			"state" : "Tamil Nadu",
+			"mobileNumber" : "9999",
+			"activationStartDate" : "2020-06-22",
+			"activationEndDate" : "2020-06-22",
+			"selectedTypeOfBussiness" : "1",
+			"selectedSubTypeOfBussiness" : "1",
+			"timezone" : "Asia/Calcutta",
+			"admins" : [
+				"taj.coromandel.property.admin@dummy.com"
+			],
+			"measurementName" : "Metric",
+			"fiscalCurrency" : "INR",
+			"timeFormat" : "24 Hours Clock",
+			"dateFormat" : "DD/MM/YYYY",
+			"systemLanguage" : "1",
+			"selectedPmsList" : "1",
+			"pmsId" : "TAJC",
+			"selectedSnCList" : "1",
+			"snCId" : "TAJC",
+			"selectedRmsList" : "2",
+			"rmsId" : "TAJC",
+			"selectedFrsList" : "1",
+			"frsId" : "TAJC",
+			"snCCurrency" : "INR",
+			"hotelCapacity" : "350",
+			"frsStructure" : "1",
+			"complex" : "No",
+			"complexRegion" : "",
+			"linkToComplex" : "",
+			"propertyOperationSetups" : {
+				"5eefaa2b1f61bd1124f4f3df" : "96",
+				"5eefaa2b1f61bd1124f4f3e0" : "100"
+			},
+			"geoId" : "171"
+		},
+		{
+			"_id" : "592",
+			"managementCompanyId" : "777",
+			"uniquePropertyName" : "taj london",
+			"propertyName" : "Taj London",
+			"licenceContactInitial" : "mrs",
+			"licenceContactFirstName" : "Toni",
+			"licenceContactLastName" : "Gellar",
+			"addressLine1" : "Suites and Residencies,",
+			"country" : "United Kingdom",
+			"diallingPrefix" : "+44",
+			"city" : "London",
+			"postalCode" : "SW1E 6AF",
+			"areaCode" : "9999",
+			"phoneNumber" : "9999",
+			"chimpsId" : "1",
+			"contactTitle" : "Director",
+			"contactEmail" : "taj.london@ideas.com",
+			"addressLine2" : "51 Buckingham Gate,",
+			"state" : "Westminster",
+			"mobileNumber" : "99999",
+			"activationStartDate" : "2020-06-23",
+			"activationEndDate" : "2020-06-23",
+			"selectedTypeOfBussiness" : "1",
+			"selectedSubTypeOfBussiness" : "1",
+			"timezone" : "Europe/London",
+			"admins" : [
+				"taj.admin@ideas.com"
+			],
+			"measurementName" : "Metric",
+			"fiscalCurrency" : "GBP",
+			"timeFormat" : "24 Hours Clock",
+			"dateFormat" : "DD/MM/YYYY",
+			"systemLanguage" : "1",
+			"selectedPmsList" : "1",
+			"pmsId" : "TAJL",
+			"selectedSnCList" : "1",
+			"snCId" : "TAJL",
+			"selectedRmsList" : "1",
+			"rmsId" : "TAJL",
+			"selectedFrsList" : "1",
+			"frsId" : "TAJL",
+			"snCCurrency" : "GBP",
+			"hotelCapacity" : "400",
+			"frsStructure" : "1",
+			"complex" : "No",
+			"complexRegion" : "",
+			"linkToComplex" : "",
+			"propertyOperationSetups" : {
+				"5eefaa2b1f61bd1124f4f3df" : "97",
+				"5eefaa2b1f61bd1124f4f3e0" : "100"
+			},
+			"geoId" : "168"
+		}
+
+	],
+	"financialExportConfigs": [
+		{
+			"_id" : "5f2a4c491f61bd1658a7c441",
+			"propertyId" : 191,
+			"fieldType" : "segment",
+			"isActive" : true,
+			"mappingCode" : "LBR",
+			"costCenterStatisticCode" : "LBRS",
+			"glStatisticCode" : "LBRS",
+			"costCenterRevenueCode" : "LBRC",
+			"glRevenueCode" : "LBRC"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c442",
+			"propertyId" : 191,
+			"fieldType" : "segment",
+			"isActive" : true,
+			"mappingCode" : "OC",
+			"costCenterStatisticCode" : "OTARS",
+			"glStatisticCode" : "OTARS",
+			"costCenterRevenueCode" : "OTARC",
+			"glRevenueCode" : "OTARC"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c443",
+			"propertyId" : 191,
+			"fieldType" : "segment",
+			"isActive" : true,
+			"mappingCode" : "PD",
+			"costCenterStatisticCode" : "PDS",
+			"glStatisticCode" : "PDS",
+			"costCenterRevenueCode" : "PDR",
+			"glRevenueCode" : "PDR"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c444",
+			"propertyId" : 191,
+			"fieldType" : "segment",
+			"isActive" : true,
+			"mappingCode" : "TA"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c445",
+			"propertyId" : 191,
+			"fieldType" : "segment",
+			"isActive" : true,
+			"mappingCode" : "MG"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c446",
+			"propertyId" : 191,
+			"fieldType" : "segment",
+			"isActive" : true,
+			"mappingCode" : "GC"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c447",
+			"propertyId" : 191,
+			"fieldType" : "segment",
+			"isActive" : true,
+			"mappingCode" : "GG"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c448",
+			"propertyId" : 191,
+			"fieldType" : "segment",
+			"isActive" : true,
+			"mappingCode" : "ORR"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c449",
+			"propertyId" : 191,
+			"fieldType" : "segment",
+			"isActive" : true,
+			"mappingCode" : "HU"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c44a",
+			"propertyId" : 191,
+			"fieldType" : "statistic",
+			"isActive" : false,
+			"mappingCode" : "GROSS_AVAILABLE_ROOMS"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c44b",
+			"propertyId" : 191,
+			"fieldType" : "statistic",
+			"isActive" : false,
+			"mappingCode" : "NET_AVAILABLE_ROOMS"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c44c",
+			"propertyId" : 191,
+			"fieldType" : "statistic",
+			"isActive" : false,
+			"mappingCode" : "REVPAR"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c44d",
+			"propertyId" : 191,
+			"fieldType" : "statistic",
+			"isActive" : false,
+			"mappingCode" : "OOO_ROOMS"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c44e",
+			"propertyId" : 191,
+			"fieldType" : "statistic",
+			"isActive" : false,
+			"mappingCode" : "ARRIVALS"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c44f",
+			"propertyId" : 191,
+			"fieldType" : "statistic",
+			"isActive" : false,
+			"mappingCode" : "DEPARTURES"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c450",
+			"propertyId" : 191,
+			"fieldType" : "statistic",
+			"isActive" : false,
+			"mappingCode" : "FINANCIAL_OCCUPANCY"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c451",
+			"propertyId" : 191,
+			"fieldType" : "statistic",
+			"isActive" : false,
+			"mappingCode" : "OCCUPANCY"
+		},
+		{
+			"_id" : "5f2a4c491f61bd1658a7c452",
+			"propertyId" : 191,
+			"fieldType" : "statistic",
+			"isActive" : false,
+			"mappingCode" : "PAID_OCCUPANCY"
+		}
+	],
+	"scStatusMappings": [
+		{
+			"_id" :"5beab09f6348e03330eb04b6",
+			"propertyId" : 191,
+			"status" : "Definite",
+			"scCodeList" : [
+				{
+					"codeName" : "ACT",
+					"codeDescription" : "Actual",
+					"includeInForecast" : true
+				},
+				{
+					"codeName" : "DEF",
+					"codeDescription" : "Definite",
+					"includeInForecast" : true
+				},
+				{
+					"codeName" : "DEFINITE",
+					"codeDescription" : "Definite 1",
+					"includeInForecast" : true
+				}
+			],
+			"displayInForecast" : true
+		},
+		{
+			"_id" :"5beab09f6348e03330eb04b7",
+			"propertyId" : 191,
+			"status" : "Tentative",
+			"scCodeList" : [
+				{
+					"codeName" : "TEN",
+					"codeDescription" : "Tentative",
+					"includeInForecast" : false
+				},
+				{
+					"codeName" : "TENTATIVE",
+					"codeDescription" : "Tentative 1",
+					"includeInForecast" : true
+				},
+				{
+					"codeName" : "TENT",
+					"codeDescription" : "Tentative 2",
+					"includeInForecast" : true
+				}
+			],
+			"displayInForecast" : true
+		},
+		{
+			"_id" :"5beab09f6348e03330eb04b8",
+			"propertyId" : 191,
+			"status" : "Prospect",
+			"scCodeList" : [
+				{
+					"codeName" : "PROS",
+					"codeDescription" : "Prospect",
+					"includeInForecast" : false
+				},
+				{
+					"codeName" : "PROSPECT",
+					"codeDescription" : "Prospect 1",
+					"includeInForecast" : false
+				}
+			],
+			"displayInForecast" : false
+		},
+		{
+			"_id" :"5beab09f6348e03330eb04b9",
+			"propertyId" : 191,
+			"status" : "Cancelled",
+			"scCodeList" : [
+				{
+					"codeName" : "LOS",
+					"codeDescription" : "Lost",
+					"includeInForecast" : false
+				},
+				{
+					"codeName" : "LOST",
+					"codeDescription" : "Lost 1",
+					"includeInForecast" : false
+				},
+				{
+					"codeName" : "CXL",
+					"codeDescription" : "Cancelled",
+					"includeInForecast" : false
+				},
+				{
+					"codeName" : "CAN",
+					"codeDescription" : "Cancelled 1",
+					"includeInForecast" : false
+				},
+				{
+					"codeName" : "BOOKINGCANCELLED",
+					"codeDescription" : "Cancelled 2",
+					"includeInForecast" : false
+				},
+				{
+					"codeName" : "BLOCKCANCELLED",
+					"codeDescription" : "Cancelled 3",
+					"includeInForecast" : false
+				}
+			],
+			"displayInForecast" : false
+		},
+		{
+			"_id" :"5beab09f6348e03330eb04ba",
+			"propertyId" : 191,
+			"status" : "Turned_Down",
+			"scCodeList" : [
+				{
+					"codeName" : "TURN",
+					"codeDescription" : "Turned Down",
+					"includeInForecast" : false
+				},
+				{
+					"codeName" : "TURNEDDOWN",
+					"codeDescription" : "Turned Down 1",
+					"includeInForecast" : false
+				}
+			],
+			"displayInForecast" : false
+		},
+		{
+			"_id" :"5d5a45d06348e03734fbbf07",
+			"propertyId" : 191,
+			"status" : "Lead",
+			"scCodeList" : [
+
+			],
+			"displayInForecast" : false
+		}
+
+	],
+
+	"userAccounts": [
+		{
+			"_id" : "5ef1f3321f61bd1124f5933d",
+			"uniqueEmail" : "corporate.admin@ideas.com",
+			"email" : "corporate.admin@ideas.com",
+			"firstName" : "Corporate",
+			"lastName" : "Admin",
+			"password" : "$2a$10$008B3.alwpki8Ib85qcxLePB6ePOFc1ApIee2xXexdR05Rd0akL1S",
+			"role" : "MANAGEMENTCOMPANYADMIN",
+			"roles" : [
+				{
+					"role" : "MANAGEMENT_COMPANY_ADMIN",
+					"managementCompanyId" : "777"
+				}
+			],
+			"passwordResetToken" : "627dc1b0-6a37-430f-99e6-9703d68d543a",
+			"lastSetPasswordLink" : {"$date":"2020-06-23T12:18:58.084+0000"},
+			"managementCompanyId" : "777",
+			"propertyIds" : [
+
+			],
+			"title" : "Corporate Admin",
+			"displayName" : "Corporate Admin",
+			"status" : true,
+			"userAccess" : [
+				"Admin Access"
+			],
+			"isPrimaryUser": true
+		},
+		{
+			"_id" : "5ef1f3631f61bd1124f5933f",
+			"uniqueEmail" : "above.property@ideas.com",
+			"email" : "above.property@ideas.com",
+			"firstName" : "Above",
+			"lastName" : "Property",
+			"password" : "$2a$10$008B3.alwpki8Ib85qcxLePB6ePOFc1ApIee2xXexdR05Rd0akL1S",
+			"role" : "ABOVEPROPERTYUSER",
+			"passwordResetToken" : "f0c01e07-38a9-4b00-a47f-f87eedbdbad0",
+			"lastSetPasswordLink" : {"$date":"2020-06-23T12:19:47.133+0000"},
+			"managementCompanyId" : "777",
+			"propertyIds" : [
+
+			],
+			"title" : "Above Property",
+			"displayName" : "Above Property",
+			"status" : true,
+			"userAccess" : [
+				"Edit Access"
+			],
+			"biAttr" : {
+				"5eefaa2b1f61bd1124f4f3df" : [
+					"96",
+					"97",
+					"98"
+				],
+				"5eefaa2b1f61bd1124f4f3e0" : [
+					"99",
+					"100"
+				]
+			},
+			"geoAreas" : [
+				"0/158/169/170/171",
+				"0/158/165/166/167",
+				"0/158/159/160/161",
+				"0/158/159/162/163",
+				"0/158/159/162/164"
+			]
+		},
+		{
+			"_id" : "5ef1f4021f61bd1124f59341",
+			"uniqueEmail" : "property.user@ideas.com",
+			"email" : "property.user@ideas.com",
+			"firstName" : "Property",
+			"lastName" : "User",
+			"password" : "$2a$10$008B3.alwpki8Ib85qcxLePB6ePOFc1ApIee2xXexdR05Rd0akL1S",
+			"role" : "PROPERTYUSER",
+			"passwordResetToken" : "d31a6542-d3a6-4430-8c07-8e8db1a10801",
+			"lastSetPasswordLink" : {"$date":"2020-06-23T12:22:26.573+0000"},
+			"managementCompanyId" : "777",
+			"propertyIds" : [
+				"591"
+			],
+			"title" : "Property User",
+			"displayName" : "Property User",
+			"status" : true,
+			"userAccess" : [
+				"Intel",
+				"Planning",
+				"Management"
+			],
+			"moduleLevelAccessInfo" : [
+				{
+					"intel" : [
+						{
+							"name" : "Rooms",
+							"subModules" : [
+								{
+									"module" : "PACE_PICKUP",
+									"action" : "READ",
+									"name" : "Pace & Pickup",
+									"isEditable" : false
+								},
+								{
+									"module" : "GROUP_ANALYTICS",
+									"action" : "READ",
+									"name" : "Group Analytics",
+									"isEditable" : false
+								}
+							]
+						}
+					]
+				},
+				{
+					"planning" : [
+						{
+							"name" : "Revenue",
+							"subModules" : [
+								{
+									"module" : "ROOMS",
+									"action" : "READ",
+									"name" : "Rooms",
+									"isEditable" : false
+								},
+								{
+									"module" : "FOOD_BEVERAGE",
+									"action" : "READ",
+									"name" : "Food & Beverage",
+									"isEditable" : false
+								}
+							]
+						},
+						{
+							"name" : "Forecasting",
+							"subModules" : [
+								{
+									"module" : "ROOMS_FORECASTING",
+									"action" : "READ",
+									"name" : "Rooms Forecasting",
+									"isEditable" : false
+								},
+								{
+									"module" : "RESIDENT_GUEST_FORECASTING",
+									"action" : "READ",
+									"name" : "Resident Guest Forecasting",
+									"isEditable" : false
+								}
+							]
+						}
+					]
+				},
+				{
+					"management" : [
+						{
+							"name" : "Summaries",
+							"subModules" : [
+
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"_id" : "5ef1f4e01f61bd1124f5934e",
+			"uniqueEmail" : "property.admin@ideas.com",
+			"email" : "property.admin@ideas.com",
+			"firstName" : "Property",
+			"lastName" : "Admin",
+			"password" : "$2a$10$008B3.alwpki8Ib85qcxLePB6ePOFc1ApIee2xXexdR05Rd0akL1S",
+			"role" : "PROPERTYADMIN",
+			"passwordResetToken" : "df7ad82e-3f31-4dc3-ad35-0ee129ce3d26",
+			"lastSetPasswordLink" : {"$date":"2020-06-23T12:26:08.252+0000"},
+			"managementCompanyId" : "777",
+			"propertyIds" : [
+				"591",
+				"592"
+			],
+			"title" : "Property Admin",
+			"displayName" : "Property Admin",
+			"status" : true,
+			"userAccess" : [
+				"Property Admin"
+			],
+			"perPropertyMetadata" : {
+				"591" : {
+					"isPrimaryUser" : false,
+					"status" : true
+				},
+				"592" : {
+					"isPrimaryUser" : false,
+					"status" : true
+				}
+			}
+		},
+		{
+			"_id" : "5ef8bfc01f61bd1e54807a40",
+			"uniqueEmail": "taj.admin@ideas.com",
+			"email": "taj.admin@ideas.com",
+			"firstName": "Tom",
+			"lastName": "Lerner",
+			"role": "PROPERTYADMIN",
+			"passwordResetToken": "da9e57c3-98fd-4450-866e-d1f4e44859a7",
+			"lastSetPasswordLink": {"$date":"2020-06-28T16:05:20.856+0000"},
+			"managementCompanyId": "777",
+			"propertyIds": [
+				"592"
+			],
+			"title": "Director",
+			"displayName": "Tom",
+			"status": true,
+			"userAccess": [
+				"Property Admin"
+			],
+			"isPrimaryUser": true,
+			"perPropertyMetadata": {
+				"592": {
+					"isPrimaryUser": true,
+					"status": true
+				}
+			}
+		}
+
+	],
+
+	"accessControlLists": [
+		{
+			"_id" : "5ef1f3321f61bd1124f5933e",
+			"userAccount" : {
+				"uniqueEmail" : "corporate.admin@ideas.com",
+				"firstName" : "Corporate",
+				"role" : "MANAGEMENTCOMPANYADMIN",
+				"displayName" : "Corporate Admin",
+				"userAccess" : [
+					"Admin Access"
+				],
+				"status" : true,
+				"managementCompanyId" : "777",
+				"propertyIds" : [
+
+				]
+			},
+			"moduleName" : "MANAGEMENT_COMPANY",
+			"actions" : [
+				"CREATE",
+				"READ",
+				"UPDATE",
+				"DELETE"
+			]
+		},
+		{
+			"_id" : "5ef1f3631f61bd1124f59340",
+			"userAccount" : {
+				"uniqueEmail" : "above.property@ideas.com",
+				"firstName" : "Above",
+				"role" : "ABOVEPROPERTYUSER",
+				"displayName" : "Above Property",
+				"userAccess" : [
+					"Edit Access"
+				],
+				"status" : true,
+				"managementCompanyId" : "777",
+				"propertyIds" : [
+
+				]
+			},
+			"moduleName" : "PROPERTY",
+			"resources" : [
+				"591"
+			],
+			"actions" : [
+				"READ",
+				"UPDATE"
+			]
+		},
+		{
+			"_id" : "5ef1f4101f61bd1124f59348",
+			"userAccount" : {
+				"uniqueEmail" : "property.user@ideas.com",
+				"firstName" : "Property",
+				"role" : "PROPERTYUSER",
+				"displayName" : "Property User",
+				"userAccess" : [
+					"Intel",
+					"Planning",
+					"Management"
+				],
+				"status" : true,
+				"managementCompanyId" : "777",
+				"propertyIds" : [
+					"591"
+				]
+			},
+			"moduleName" : "Pace & Pickup",
+			"actions" : [
+				"READ"
+			]
+		},
+		{
+			"_id" : "5ef1f4101f61bd1124f59349",
+			"userAccount" : {
+				"uniqueEmail" : "property.user@ideas.com",
+				"firstName" : "Property",
+				"role" : "PROPERTYUSER",
+				"displayName" : "Property User",
+				"userAccess" : [
+					"Intel",
+					"Planning",
+					"Management"
+				],
+				"status" : true,
+				"managementCompanyId" : "777",
+				"propertyIds" : [
+					"591"
+				]
+			},
+			"moduleName" : "Group Analytics",
+			"actions" : [
+				"READ"
+			]
+		},
+		{
+			"_id" : "5ef1f4101f61bd1124f5934a",
+			"userAccount" : {
+				"uniqueEmail" : "property.user@ideas.com",
+				"firstName" : "Property",
+				"role" : "PROPERTYUSER",
+				"displayName" : "Property User",
+				"userAccess" : [
+					"Intel",
+					"Planning",
+					"Management"
+				],
+				"status" : true,
+				"managementCompanyId" : "777",
+				"propertyIds" : [
+					"591"
+				]
+			},
+			"moduleName" : "Rooms",
+			"actions" : [
+				"READ"
+			]
+		},
+		{
+			"_id" : "5ef1f4101f61bd1124f5934b",
+			"userAccount" : {
+				"uniqueEmail" : "property.user@ideas.com",
+				"firstName" : "Property",
+				"role" : "PROPERTYUSER",
+				"displayName" : "Property User",
+				"userAccess" : [
+					"Intel",
+					"Planning",
+					"Management"
+				],
+				"status" : true,
+				"managementCompanyId" : "777",
+				"propertyIds" : [
+					"591"
+				]
+			},
+			"moduleName" : "Food & Beverage",
+			"actions" : [
+				"READ"
+			]
+		},
+		{
+			"_id" : "5ef1f4101f61bd1124f5934c",
+			"userAccount" : {
+				"uniqueEmail" : "property.user@ideas.com",
+				"firstName" : "Property",
+				"role" : "PROPERTYUSER",
+				"displayName" : "Property User",
+				"userAccess" : [
+					"Intel",
+					"Planning",
+					"Management"
+				],
+				"status" : true,
+				"managementCompanyId" : "777",
+				"propertyIds" : [
+					"591"
+				]
+			},
+			"moduleName" : "Rooms Forecasting",
+			"actions" : [
+				"READ"
+			]
+		},
+		{
+			"_id" : "5ef1f4101f61bd1124f5934d",
+			"userAccount" : {
+				"uniqueEmail" : "property.user@ideas.com",
+				"firstName" : "Property",
+				"role" : "PROPERTYUSER",
+				"displayName" : "Property User",
+				"userAccess" : [
+					"Intel",
+					"Planning",
+					"Management"
+				],
+				"status" : true,
+				"managementCompanyId" : "777",
+				"propertyIds" : [
+					"591"
+				]
+			},
+			"moduleName" : "Resident Guest Forecasting",
+			"actions" : [
+				"READ"
+			]
+		},
+		{
+			"_id" : "5ef1f4e01f61bd1124f5934f",
+			"userAccount" : {
+				"uniqueEmail" : "property.admin@ideas.com",
+				"firstName" : "Property",
+				"role" : "PROPERTYADMIN",
+				"displayName" : "Property Admin",
+				"userAccess" : [
+					"Property Admin"
+				],
+				"status" : true,
+				"managementCompanyId" : "777",
+				"propertyIds" : [
+					"591",
+					"592"
+				],
+				"perPropertyMetadata" : {
+					"591" : {
+						"isPrimaryUser" : false,
+						"status" : true
+					},
+					"592" : {
+						"isPrimaryUser" : false,
+						"status" : true
+					}
+				}
+			},
+			"moduleName" : "PROPERTY",
+			"actions" : [
+				"CREATE",
+				"READ",
+				"UPDATE",
+				"DELETE"
+			]
+		},
+		{
+			"_id": "5ef8bfc01f61bd1e54807a41",
+			"userAccount": {
+				"uniqueEmail": "taj.admin@ideas.com",
+				"firstName": "Tom",
+				"role": "PROPERTYADMIN",
+				"displayName": "Tom",
+				"userAccess": [
+					"Property Admin"
+				],
+				"status": true,
+				"managementCompanyId": "777",
+				"propertyIds": [
+					"592"
+				],
+				"perPropertyMetadata": {
+					"592": {
+						"isPrimaryUser": true,
+						"status": true
+					}
+				}
+			},
+			"moduleName": "PROPERTY",
+			"actions": [
+				"CREATE",
+				"READ",
+				"UPDATE",
+				"DELETE"
+			]
+		}
+	],
+
+	"companyProfiles":[
+		{
+			"companyProfileID" : "1251130",
+			"propertyId" : 592,
+			"companyProfileName" : "Boston Consulting Group",
+			"contract" : false,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"status" : "PENDING"
+		},
+		{
+			"companyProfileID" : "15401",
+			"propertyId" : 592,
+			"companyProfileName" : "Danish Government",
+			"contract" : false,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"masterCompanyProfileID" : "4181666",
+			"status" : "PENDING"
+		},
+		{
+			"propertyId" : 592,
+			"companyProfileID" : "4181666",
+			"companyProfileName" : "Airbus Group",
+			"status" : "PENDING",
+			"contract" : false,
+			"createdDate" : "2020-02-08",
+			"lastModifiedDate" :"2020-02-08",
+			"dataType" : "SYSTEM_DEFINED"
+		},
+		{
+			"companyProfileID" : "13144663",
+			"propertyId" : 592,
+			"companyProfileName" : "CHAP BB",
+			"contract" : false,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"masterCompanyProfileID" : "13312967",
+			"status" : "PENDING"
+		},
+		{
+			"companyProfileID" : "141928",
+			"propertyId" : 592,
+			"companyProfileName" : "Fortum Corporation",
+			"contract" : false,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"status" : "PENDING"
+		},
+		{
+			"companyProfileID" : "13312967",
+			"propertyId" : 592,
+			"companyProfileName" : "CHAP BB test",
+			"contract" : false,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"status" : "PENDING"
+		},
+		{
+			"companyProfileID" : "33919",
+			"propertyId" : 592,
+			"companyProfileName" : "Eli Lilly & Company",
+			"contract" : true,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"status" : "ACCEPTED"
+		},
+		{
+			"companyProfileID" : "711174",
+			"propertyId" : 592,
+			"companyProfileName" : "Eurocontrol",
+			"contract" : true,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"masterCompanyProfileID" : "33919",
+			"status" : "ACCEPTED"
+		},
+
+		{
+			"companyProfileID" : "13728774",
+			"propertyId" : 592,
+			"companyProfileName" : "Inditex",
+			"contract" : false,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"status" : "ACCEPTED"
+		},
+		{
+			"companyProfileID" : "869954",
+			"propertyId" : 592,
+			"companyProfileName" : "Microsoft Corporation",
+			"contract" : true,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"status" : "ACCEPTED"
+		},
+		{
+			"companyProfileID" : "13776885",
+			"propertyId" : 592,
+			"companyProfileName" : "Kuoni Group",
+			"contract" : false,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"status" : "EXCLUDED"
+		},
+		{
+			"companyProfileID" : "1341669",
+			"propertyId" : 592,
+			"companyProfileName" : "Lego Systems Inc",
+			"contract" : false,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"masterCompanyProfileID" : "13776885",
+			"status" : "EXCLUDED"
+		},
+		{
+			"companyProfileID" : "13668589",
+			"propertyId" : 592,
+			"companyProfileName" : "National Oilwell Varco",
+			"contract" : true,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"status" : "ACCEPTED"
+		},
+		{
+			"companyProfileID" : "5000000",
+			"propertyId" : 592,
+			"companyProfileName" : "New accenture",
+			"contract" : false,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"status" : "EXCLUDED"
+		},
+		{
+			"companyProfileID" : "10121983",
+			"propertyId" : 592,
+			"companyProfileName" : "Norges Fotballforbund",
+			"contract" : false,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"status" : "EXCLUDED"
+		},
+		{
+			"companyProfileID" : "36551",
+			"propertyId" : 592,
+			"companyProfileName" : "PricewaterhouseCoopers",
+			"contract" : false,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"status" : "PENDING"
+		},
+		{
+			"companyProfileID" : "34668",
+			"propertyId" : 592,
+			"companyProfileName" : "Norwegian Government",
+			"contract" : false,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"status" : "EXCLUDED"
+		},
+		{
+			"companyProfileID" : "407901",
+			"propertyId" : 592,
+			"companyProfileName" : "Norwegian Research",
+			"contract" : false,
+			"createdDate" : "2020-02-08",
+			"dataType" : "SYSTEM_DEFINED",
+			"lastModifiedDate" : "2020-02-08",
+			"masterCompanyProfileID" : "34668",
+			"status" : "EXCLUDED"
+		}],
+
+"companyProfileReservations": [
+		{"propertyId" :592,"companyProfileID" : "4181666","confirmationNumber":"89225","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "4181666","confirmationNumber":"89226","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "4181666","confirmationNumber":"89227","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "4181666","confirmationNumber":"89228","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "4181666","confirmationNumber":"89229","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "4181666","confirmationNumber":"89230","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "4181666","confirmationNumber":"89231","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "4181666","confirmationNumber":"89232","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "4181666","confirmationNumber":"89233","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "4181666","confirmationNumber":"89234","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "15401","confirmationNumber":"89235","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "15401","confirmationNumber":"89236","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "15401","confirmationNumber":"89237","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "15401","confirmationNumber":"89238","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "15401","confirmationNumber":"89239","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "15401","confirmationNumber":"89240","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "15401","confirmationNumber":"89241","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "15401","confirmationNumber":"89242","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "141928","confirmationNumber":"89255","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "141928","confirmationNumber":"89256","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "141928","confirmationNumber":"89257","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "141928","confirmationNumber":"89258","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "141928","confirmationNumber":"89259","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "141928","confirmationNumber":"89250","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "141928","confirmationNumber":"89251","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "141928","confirmationNumber":"89252","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "13144663","confirmationNumber":"89265","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "13144663","confirmationNumber":"89266","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "13144663","confirmationNumber":"89267","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "13144663","confirmationNumber":"89268","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "13144663","confirmationNumber":"89269","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "13144663","confirmationNumber":"89270","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "13144663","confirmationNumber":"89271","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "13144663","confirmationNumber":"89272","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "13144663","confirmationNumber":"89273","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "13144663","confirmationNumber":"89274","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "33919","confirmationNumber":"89275","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "33919","confirmationNumber":"89276","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "33919","confirmationNumber":"89277","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "33919","confirmationNumber":"89278","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "33919","confirmationNumber":"89279","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "33919","confirmationNumber":"89280","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "33919","confirmationNumber":"89281","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "33919","confirmationNumber":"89282","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "33919","confirmationNumber":"89283","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "33919","confirmationNumber":"89284","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "13728774","confirmationNumber":"89285","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "13728774","confirmationNumber":"89286","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "13728774","confirmationNumber":"89287","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "13728774","confirmationNumber":"89288","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "13728774","confirmationNumber":"89289","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "13728774","confirmationNumber":"89290","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "13728774","confirmationNumber":"89291","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "13728774","confirmationNumber":"89292","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "13728774","confirmationNumber":"89293","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "13728774","confirmationNumber":"89294","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "869954","confirmationNumber":"89295","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "869954","confirmationNumber":"89296","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "869954","confirmationNumber":"89297","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "869954","confirmationNumber":"89298","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "869954","confirmationNumber":"89299","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "869954","confirmationNumber":"89300","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "869954","confirmationNumber":"89301","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "869954","confirmationNumber":"89302","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "869954","confirmationNumber":"89303","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "869954","confirmationNumber":"89304","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "5000000","confirmationNumber":"89305","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "5000000","confirmationNumber":"89306","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "5000000","confirmationNumber":"89307","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "5000000","confirmationNumber":"89308","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "5000000","confirmationNumber":"89309","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "5000000","confirmationNumber":"89310","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "10121983","confirmationNumber":"89311","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "10121983","confirmationNumber":"89312","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "10121983","confirmationNumber":"89313","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "10121983","confirmationNumber":"89314","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "10121983","confirmationNumber":"89315","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "10121983","confirmationNumber":"89316","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "10121983","confirmationNumber":"89317","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "10121983","confirmationNumber":"89318","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "10121983","confirmationNumber":"89319","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "10121983","confirmationNumber":"89320","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "36551","confirmationNumber":"89321","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "36551","confirmationNumber":"89322","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "36551","confirmationNumber":"89323","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "36551","confirmationNumber":"89324","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "36551","confirmationNumber":"89325","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "36551","confirmationNumber":"89326","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "36551","confirmationNumber":"89327","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "36551","confirmationNumber":"89328","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "36551","confirmationNumber":"89329","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "36551","confirmationNumber":"89330","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "34668","confirmationNumber":"89331","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "34668","confirmationNumber":"89332","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "34668","confirmationNumber":"89333","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "34668","confirmationNumber":"89334","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "34668","confirmationNumber":"89335","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "34668","confirmationNumber":"89336","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"Y"},
+		{"propertyId" :592,"companyProfileID" : "34668","confirmationNumber":"89337","occupancyDate":"2020-08-08","reservationRoomCount":0,"reservationStatus":"RESERVED","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "34668","confirmationNumber":"89338","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "34668","confirmationNumber":"89339","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"CHECKED IN","isPseudoRoom":"N"},
+		{"propertyId" :592,"companyProfileID" : "34668","confirmationNumber":"89340","occupancyDate":"2020-08-08","reservationRoomCount":1,"reservationStatus":"RESERVED","isPseudoRoom":"N"}
+	]
+
+}

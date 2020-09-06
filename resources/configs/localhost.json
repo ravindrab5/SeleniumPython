@@ -1,0 +1,7 @@
+{
+  "url":"http://localhost:4200/login",
+  "username": "mars@ideas.com",
+  "password": "ID6asMar5",
+  "db": "mars",
+  "db.url": "localhost"
+}

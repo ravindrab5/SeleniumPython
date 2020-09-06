@@ -1,0 +1,75 @@
+[
+  {
+    "propertyId": 1,
+    "companyProfileID": "1243",
+    "companyProfileName": "Coco Cola",
+    "status": "PENDING",
+    "contract": false,
+    "createdDate": "2020-01-15T00:00:00.000+0000",
+    "lastModifiedDate": "2020-01-15T00:00:00.000+0000",
+    "dataType": "SYSTEM_DEFINED"
+  },
+  {
+    "propertyId": 1,
+    "companyProfileID": "1",
+    "companyProfileName": "Coco Cola Child 1",
+    "masterCompanyProfileID": "1243",
+    "status": "PENDING",
+    "contract": false,
+    "createdDate": "2020-01-15T00:00:00.000+0000",
+    "lastModifiedDate": "2020-01-15T00:00:00.000+0000",
+    "dataType": "SYSTEM_DEFINED"
+  },
+  {
+    "propertyId": 1,
+    "companyProfileID": "2",
+    "companyProfileName": "Coco Cola Child 2",
+    "masterCompanyProfileID": "1243",
+    "status": "PENDING",
+    "contract": false,
+    "createdDate": "2020-01-15T00:00:00.000+0000",
+    "lastModifiedDate": "2020-01-15T00:00:00.000+0000",
+    "dataType": "SYSTEM_DEFINED"
+  },
+  {
+    "propertyId": 1,
+    "companyProfileID": "137897777",
+    "companyProfileName": "ACC Ltd",
+    "status": "PENDING",
+    "contract": false,
+    "createdDate": "2020-01-15T00:00:00.000+0000",
+    "lastModifiedDate": "2020-01-15T00:00:00.000+0000",
+    "dataType": "SYSTEM_DEFINED"
+  },
+  {
+    "propertyId": 1,
+    "companyProfileID": "13702090",
+    "companyProfileName": "Den Norske Atlanterhavskomite",
+    "status": "PENDING",
+    "contract": false,
+    "createdDate": "2020-01-15T00:00:00.000+0000",
+    "lastModifiedDate": "2020-01-15T00:00:00.000+0000",
+    "dataType": "SYSTEM_DEFINED"
+  },
+  {
+    "propertyId": 1,
+    "companyProfileID": "13709",
+    "companyProfileName": "Actuarial Association of Europe",
+    "status": "PENDING",
+    "contract": false,
+    "createdDate": "2020-01-15T00:00:00.000+0000",
+    "lastModifiedDate": "2020-01-15T00:00:00.000+0000",
+    "dataType": "SYSTEM_DEFINED"
+  },
+  {
+    "propertyId": 1,
+    "companyProfileID": "8375620",
+    "companyProfileName": "National Postal Service of Belgium",
+    "masterCompanyProfileID": "13709",
+    "status": "PENDING",
+    "contract": false,
+    "createdDate": "2020-01-15T00:00:00.000+0000",
+    "lastModifiedDate": "2020-01-15T00:00:00.000+0000",
+    "dataType": "SYSTEM_DEFINED"
+  }
+]
