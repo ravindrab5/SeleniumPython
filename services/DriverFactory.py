@@ -12,7 +12,7 @@ class DriverManager:
 
 
 class DriverFactory(ABC):
-    selenium_grid_url = "http://mn4qmarenvw001.ideasdev.int:4444/wd/hub"
+    selenium_grid_url = "http://localhost:4444/wd/hub"
 
     @abstractmethod
     def create_driver(self):
