@@ -9,11 +9,11 @@ logger=LogInitilizer.getLogger()
 env=None
 
 def pytest_addoption(parser):
-    parser.addoption("--en", action="store", help="my option: type1 or type2")
+    parser.addoption("--env", action="store", help="my option: type1 or type2")
 
 
 def pytest_generate_tests(metafunc):
-    env_str=metafunc.config.getoption("en")
+    env_str=metafunc.config.getoption("env")
     global env
     env= Environment.get_environment(env_str)
 

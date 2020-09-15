@@ -36,7 +36,7 @@ stage('Run Tests'){
 			switch(TESTS){
 
             case "All":
-                bat 'python -m pipenv run pytest scripts -v --en='+params.ENVIRONMENT+' --junitxml=result.xml'
+                bat 'python -m pipenv run pytest scripts -v --env='+params.ENVIRONMENT+' --junitxml=result.xml'
                 break
             }
             }
